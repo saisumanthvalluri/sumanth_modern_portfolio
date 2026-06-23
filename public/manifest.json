@@ -1,0 +1,16 @@
+{
+  "name": "Sai Sumanth Valluri | Portfolio",
+  "short_name": "SSV.dev",
+  "description": "Senior Frontend Developer – React & Next.js Specialist",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070A13",
+  "theme_color": "#5B4FE8",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
