@@ -10,7 +10,8 @@ export const personalInfo = {
 	phone: "+91 9951442684",
 	location: "Hyderabad, Telangana, India",
 	about: `I'm a Senior Frontend Developer with 4 years of experience building fast, scalable, and accessible web applications. I specialize in React and Next.js, with a sharp eye for UI/UX and a passion for clean, maintainable code. From architecting headless CMS platforms to shipping interactive learning modules for thousands of students — I turn complex requirements into elegant experiences.`,
-	resumeUrl: "https://drive.google.com/file/d/1uxxbt2JSOuiwcFaV76N5qSMkyAf1pYLM/view?usp=drive_link",
+	// resumeUrl: "https://drive.google.com/file/d/1uxxbt2JSOuiwcFaV76N5qSMkyAf1pYLM/view?usp=drive_link",
+	resumeUrl: "/resume.pdf",
 };
 
 export const socialLinks: SocialLink[] = [
