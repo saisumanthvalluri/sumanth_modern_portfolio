@@ -9,7 +9,7 @@ export const personalInfo = {
 	email: "vsaisumanth9951@gmail.com",
 	phone: "+91 9951442684",
 	location: "Hyderabad, Telangana, India",
-	about: `I'm a Senior Frontend Developer with 4 years of experience building fast, scalable, and accessible web applications. I specialize in React and Next.js, with a sharp eye for UI/UX and a passion for clean, maintainable code. From architecting headless CMS platforms to shipping interactive learning modules for thousands of students — I turn complex requirements into elegant experiences.`,
+	about: `I'm a Senior Frontend Developer with 4+ years of experience building fast, scalable, and accessible web applications. Currently at Coupa Software, I work on the frontend for Supply Chain Optimization (SCO) within the Direct & Indirect Spend team, building React/TypeScript UIs for data and process flows, backed by Playwright end-to-end test coverage. Previously, I specialized in React and Next.js — architecting headless CMS platforms and shipping interactive learning modules for thousands of students. I turn complex requirements into elegant, reliable experiences.`,
 	// resumeUrl: "https://drive.google.com/file/d/1uxxbt2JSOuiwcFaV76N5qSMkyAf1pYLM/view?usp=drive_link",
 	resumeUrl: "/resume.pdf",
 };
@@ -30,10 +30,43 @@ export const achievements = [
 
 export const experiences: Experience[] = [
 	{
+		id: "coupa",
+		company: "Coupa Software",
+		role: "Software Engineer",
+		period: "Aug 2026 – Present",
+		location: "Hyderabad, India",
+		description: [
+			"Working full-time as a Frontend Engineer in the Direct & Indirect Spend (D&I Spend – IND) team, focused on Supply Chain Optimization (SCO) features within Coupa's Business Spend Management platform.",
+			"Build React/TypeScript UI for data flows and process flows covering Network Optimization, Transportation Optimization, and Inventory Optimization — turning complex supply-chain logic into clear, usable interfaces.",
+			"Build model-creation workflows that feed structured input data into optimization models, enabling planners to run scenarios and surface actionable cost and efficiency insights.",
+			"Collaborate cross-functionally with product, QE, and backend teams using Jira and Confluence to turn design specs into shippable features, following Coupa's internal engineering conventions and PR review standards.",
+			"Design and author end-to-end (E2E) test cases with Playwright to validate SCO data and process flow screens before release.",
+			"Work within a component-driven React frontend integrated with a Jenkins-based CI/CD pipeline, monitored in production via New Relic, with SonarQube and Snyk gating code quality and security in every release.",
+			"Document data flows, process flows, and system architecture using Lucidchart to align engineering, product, and QA on SCO design decisions.",
+		],
+		technologies: [
+			"React",
+			"TypeScript",
+			"JavaScript (ES6+)",
+			"Playwright",
+			"E2E Testing",
+			"Jenkins",
+			"CI/CD",
+			"New Relic",
+			"SonarQube",
+			"Snyk",
+			"Lucidchart",
+			"Jira",
+			"Confluence",
+			"GitHub",
+			"Agile/Scrum",
+		],
+	},
+	{
 		id: "infinity-learn",
 		company: "Infinity Learn",
 		role: "Software Development Engineer",
-		period: "Sep 2022 – Present",
+		period: "Sep 2022 – Aug 2026",
 		location: "Hyderabad, India",
 		description: [
 			"Architected a headless CMS platform using Directus + Next.js, enabling real-time content management, faster publishing, and scalable page creation across the company website.",
@@ -81,7 +114,17 @@ export const skillCategories: SkillCategory[] = [
 	{
 		category: "Tools & DevOps",
 		icon: "🛠️",
-		skills: ["Git", "Bitbucket", "Jira", "npm", "AWS", "Jest", "React Testing Library"],
+		skills: ["Git", "GitHub", "Bitbucket", "Jira", "Confluence", "npm", "AWS", "TeamCity", "Jenkins", "CI/CD"],
+	},
+	{
+		category: "Testing & Quality",
+		icon: "🧪",
+		skills: ["Playwright", "E2E Testing", "Jest", "React Testing Library", "SonarQube", "Snyk"],
+	},
+	{
+		category: "Monitoring & Docs",
+		icon: "📊",
+		skills: ["New Relic", "Lucidchart"],
 	},
 	{
 		category: "Practices",

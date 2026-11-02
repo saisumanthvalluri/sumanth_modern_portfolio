@@ -93,11 +93,14 @@ export default function About() {
                   building scalable web applications for real users.
                 </p>
                 <p className="text-base leading-relaxed" style={{ color: "var(--text-2)" }}>
-                  At{" "}
-                  <span style={{ color: "var(--primary)", fontWeight: 600 }}>Infinity Learn</span>,
-                  I architect headless CMS platforms, design multi-role permission systems, and build interactive
-                  learning modules used by thousands of students across India. I believe great software is
-                  both invisible (it just works) and memorable (it feels great to use).
+                  I&apos;m currently at{" "}
+                  <span style={{ color: "var(--primary)", fontWeight: 600 }}>Coupa Software</span>, building the
+                  React/TypeScript frontend for Supply Chain Optimization (SCO) within the Direct &amp; Indirect
+                  Spend team, backed by Playwright end-to-end test coverage. Previously at{" "}
+                  <span style={{ color: "var(--primary)", fontWeight: 600 }}>Infinity Learn</span>, I architected
+                  headless CMS platforms, designed multi-role permission systems, and built interactive learning
+                  modules used by thousands of students across India. I believe great software is both invisible
+                  (it just works) and memorable (it feels great to use).
                 </p>
                 <p className="text-base leading-relaxed" style={{ color: "var(--text-2)" }}>
                   My background in Mechanical Engineering trained me to think in systems — a mindset I bring

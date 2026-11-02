@@ -24,13 +24,15 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
 	title: "Sai Sumanth Valluri | Senior Frontend Developer",
 	description:
-		"Senior Frontend Developer with 4+ years of experience building scalable, high-performance web applications using React, Next.js, and TypeScript. Based in Hyderabad, India.",
+		"Senior Frontend Developer with 4+ years of experience building scalable, high-performance web applications using React, Next.js, and TypeScript. Currently at Coupa Software. Based in Hyderabad, India.",
 	keywords: [
 		"Sai Sumanth Valluri",
+		"Senior Frontend Developer",
 		"Frontend Developer",
 		"React Developer",
 		"Next.js Developer",
 		"TypeScript",
+		"Coupa",
 		"Hyderabad",
 		"SDE",
 		"Web Developer",
