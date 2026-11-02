@@ -1,0 +1,31 @@
+data/portfolio.ts
+  s_dc1c0481155d41::t_131a046938629d 40-41,43-45,52-58
+  s_dc1c0481155d41::t_dea9a87a0678c5 118-119,121
+  s_dc1c0481155d41::t_6f24370b6fa918 12
+  s_dc1c0481155d41::t_2ccaf04bad4d2d 32,117,120,122-127
+  s_dc1c0481155d41::t_6e1b04388d94e0 33-34,36-38,42,46-49,51,59-64,69
+  s_dc1c0481155d41::t_739a04636594ea 39,50
+  s_dc1c0481155d41::t_5d7a1ff7b4047e 35
+app/layout.tsx
+  s_dc1c0481155d41::t_5ef3c2970b17b0 35
+  s_dc1c0481155d41::t_a23beefa414cff 27,30
+components/sections/About.tsx
+  s_dc1c0481155d41::t_c452a9575180c1 97-99
+  s_dc1c0481155d41::t_7050e01476edb1 96,100-103
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ad95f13b1e7f48a61975f58b61448c512d387686",
+  "prompts": {},
+  "sessions": {
+    "s_dc1c0481155d41": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ebc1ccb8-6573-4fbc-9f91-287b7e812b9c",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "sai-sumanthvalluri <sai-sumanth.valluri@coupa.com>"
+    }
+  }
+}
